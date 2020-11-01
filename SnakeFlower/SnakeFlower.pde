@@ -62,7 +62,7 @@ void draw() {
   mySnake[0].x = mouseX;
   mySnake[0].y = mouseY;
   // Draw the "tail"
-  for (int i = num-1; i > 0; i--) {
+  for (int i = 0; i < num; i++) {
     mySnake[i].display();
   }
   
